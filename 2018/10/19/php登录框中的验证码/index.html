@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="b103">
 <meta property="og:description" content="0x00　前言什么是验证码　　验证码（CAPTCHA）是“Completely Automated Public Turing test to tell Computers and Humans Apart”（全自动区分计算机和人类的图灵测试）的缩写，是一种区分用户是计算机还是人的公共全自动程序。可以防止：恶意破解密码、刷票、论坛灌水，有效防止某个黑客对某一个特定注册用户用特定程序暴力破解方式进行">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-19T09:18:09.730Z">
+<meta property="og:updated_time" content="2018-10-19T10:23:32.103Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="php登录框中的验证码">
 <meta name="twitter:description" content="0x00　前言什么是验证码　　验证码（CAPTCHA）是“Completely Automated Public Turing test to tell Computers and Humans Apart”（全自动区分计算机和人类的图灵测试）的缩写，是一种区分用户是计算机还是人的公共全自动程序。可以防止：恶意破解密码、刷票、论坛灌水，有效防止某个黑客对某一个特定注册用户用特定程序暴力破解方式进行">
@@ -350,7 +350,7 @@
       
 
       
-        <h1 id="0x00-前言"><a href="#0x00-前言" class="headerlink" title="0x00　前言"></a>0x00　前言</h1><h2 id="什么是验证码"><a href="#什么是验证码" class="headerlink" title="什么是验证码"></a>什么是验证码</h2><p>　　验证码（CAPTCHA）是“Completely Automated Public Turing test to tell Computers and Humans Apart”（全自动区分计算机和人类的图灵测试）的缩写，是一种区分用户是计算机还是人的公共全自动程序。可以防止：恶意破解密码、刷票、论坛灌水，有效防止某个黑客对某一个特定注册用户用特定程序暴力破解方式进行不断的登陆尝试，实际上用验证码是现在很多网站通行的方式，我们利用比较简易的方式实现了这个功能。这个问题可以由计算机生成并评判，但是必须只有人类才能解答。由于计算机无法解答CAPTCHA的问题，所以回答出问题的用户就可以被认为是人类。</p>
+        <h1 id="0x00-前言"><a href="#0x00-前言" class="headerlink" title="0x00　前言"></a>0x00　前言</h1><h2 id="什么是验证码"><a href="#什么是验证码" class="headerlink" title="什么是验证码"></a>什么是验证码</h2><p>　　验证码（CAPTCHA）是“Completely Automated Public Turing test to tell Computers and Humans Apart”（全自动区分计算机和人类的图灵测试）的缩写，是一种区分用户是计算机还是人的公共全自动程序。可以防止：恶意破解密码、刷票、论坛灌水，有效防止某个黑客对某一个特定注册用户用特定程序暴力破解方式进行不断的登陆尝试，实际上用验证码是现在很多网站通行的方式，我们利用比较简易的方式实现了这个功能。这个问题可以由计算机生成并评判，<a id="more"></a>但是必须只有人类才能解答。由于计算机无法解答CAPTCHA的问题，所以回答出问题的用户就可以被认为是人类。</p>
 <h2 id="验证码简介"><a href="#验证码简介" class="headerlink" title="验证码简介"></a>验证码简介</h2><p>　　验证码这个词最早是在2002年由卡内基梅隆大学的路易斯·冯·安、Manuel Blum、Nicholas J.Hopper以及IBM的John Langford所提出。卡内基梅隆大学曾试图申请此词使其成为注册商标， 但该申请于2008年4月21日被拒绝。一种常用的CAPTCHA测试是让用户输入一个扭曲变形的图片上所显示的文字或数字，扭曲变形是为了避免被光学字符识别（OCR, Optical Character Recognition）之类的电脑程序自动辨识出图片上的文数字而失去效果。由于这个测试是由计算机来考人类，而不是标准图灵测试中那样由人类来考计算机，人们有时称CAPTCHA是一种反向图灵测试。</p>
 <h2 id="验证码的作用"><a href="#验证码的作用" class="headerlink" title="验证码的作用"></a>验证码的作用</h2><p>　　对于web开发和web安全的领域，验证码一直是比较主流的 一种安全措施。验证码的存在， 一定程度上防止了黑客通过暴力破解等手段获取他人的账号密码。所以说，对于web开发而言，验证码是必不可少的。</p>
 <h2 id="验证码的发展史"><a href="#验证码的发展史" class="headerlink" title="验证码的发展史"></a>验证码的发展史</h2><p>　　随着时代的不断发展，验证码的形式也发生了较大的变化。从最早的数字验证码，到后来的简单数值运算和汉字验证码（如<a href="http://aq.qq.com" target="_blank" rel="noopener">QQ找回密码界面</a>），再到后来的滑动验证（如<a href="http://www.qzone.com" target="_blank" rel="noopener">QQ空间网页版</a>中的验证码），单击验证（如<a href="http://pintia.cn" target="_blank" rel="noopener">PTA</a>中的验证码），再到“点击图中XX物品”（如<a href="http://www.12306.cn" target="_blank" rel="noopener">12306</a>的验证码）。总之，人们对于操作越来越简单的需求以及黑客技术的发展，推动者验证码在不断的发展过程中。</p>
